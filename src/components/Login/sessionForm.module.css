@@ -1,0 +1,76 @@
+.main{
+    width: 30%;
+    max-width: 350px;
+    height: 100%;
+    min-height: 400px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 3px 19px -4px rgba(162,41,219,0.39);
+    -webkit-box-shadow: 8px 3px 19px -4px rgba(162,41,219,0.39);
+    -moz-box-shadow: 8px 3px 19px -4px rgba(162,41,219,0.39);
+}
+.form_session{
+    width: 100%;
+    height: 399px;
+    border-radius: 5px;
+    padding: 35px;
+    padding-top: 50px;
+}
+.input{
+    text-align: left;
+    display: block;
+    font-size: 12px;
+    border: 1px solid #8080802e;
+    padding:3px;
+}
+.form_session div{
+    padding-bottom: 15px;
+}
+.text_form_session{ 
+    font-size: 24px;
+    font-weight: bold;
+}
+.password_form_session{
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+.btn_form_session{
+    width: 100%;
+    padding: 8px;
+    background-color: #9c27b0;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.label_form_session{
+    text-align: center;
+    font-size: 14px;
+}
+.circle_progress{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.error_label{
+    text-align: center;
+    font-size: 12px;
+    margin-top: -10px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 865px) {
+    .main{
+        width: 100%;
+        display: block;
+    }
+    .form_session{
+        box-sizing: border-box;
+    }
+    .input{
+        width: 100%;
+    }
+}

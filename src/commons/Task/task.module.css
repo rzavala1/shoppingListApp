@@ -1,0 +1,20 @@
+.task_main{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #8080802e;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.delete_img{
+    cursor: pointer;
+}
+.check{
+    zoom: 20px;
+    cursor: pointer;
+}
+.name{
+    font-size: 15px;
+    width: 90%;
+}
