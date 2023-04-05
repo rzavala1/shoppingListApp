@@ -35,7 +35,7 @@ const Index = () => {
             },
         });
         if (response.errors) {
-            throw response.errors[0].message;
+            throw response.errors;
         }
         setInput("");
         setList([...list, response?.data?.createTask]);

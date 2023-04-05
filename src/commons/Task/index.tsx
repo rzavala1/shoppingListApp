@@ -27,7 +27,7 @@ const Task = (props: Props) => {
             }
         });
         if (response.errors) {
-            throw response.errors[0].message;
+            throw response.errors;
         }
         refetch(null);
     }
@@ -43,7 +43,7 @@ const Task = (props: Props) => {
             }
         });
         if (response.errors) {
-            throw response.errors[0].message;
+            throw response.errors;
         }
         setCheck(!check);
         refetch(idTask);

@@ -32,7 +32,7 @@ function useProvideAuth() {
     });
 
     if (response.errors) {
-      throw response.errors[0].message;
+      throw response.errors;
     }
     
     Cookie.set("token", response?.data?.login?.token, { expires: 1 });
